@@ -1,3 +1,4 @@
+
 *{
     margin:0px;
     box-sizing: border-box;
@@ -38,7 +39,7 @@ div{
     border-left: 1px solid black;
 }
 .a{
-    background-color:  black;;
+    background-color:  orangered;;
 }
 
 .b{
@@ -46,7 +47,7 @@ div{
 }
 
 .c{
-    background-color:gray;
+    background-color: red;
 }
 
 p{
@@ -55,11 +56,13 @@ p{
     
 }
 
-@media (min-width:992px){
+@media (min-width:992px)
+{
 
 }
 
-@media (min-width:768px) and (max-width:991px){
+@media (min-width:768px) and (max-width:991px)
+{
     .column{
         width: 48%;
         margin-right: 2.5px;
